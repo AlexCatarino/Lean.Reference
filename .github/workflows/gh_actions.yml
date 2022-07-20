@@ -1,6 +1,8 @@
 name: Create Documentation
 
 on:
+  push:
+    branches: ['*']
   schedule:
     - cron: 0 3 * * *
   workflow_dispatch:
@@ -32,20 +34,47 @@ jobs:
           cp Doxyfile MAIN_PAGE.md *.css *.html ./Lean
           cd Lean
           doxygen
+          zip -r master.zip ./_docs/
+          cp master.zip ${{steps.lean.outputs.TAG}}.zip
+          tar -zcf master.tar.gz ./_docs/
+          cp master.tar.gz ${{steps.lean.outputs.TAG}}.tar.gz
+
+      - name: Create Release
+        uses: actions/create-release@v1
+        id: create_release
+        with:
+          draft: false
+          prerelease: false
+          release_name: ${{steps.lean.outputs.TAG}}
+          tag_name: ${{steps.lean.outputs.TAG}}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Publish the Zipped Doxygen Docs to GH Releases
-        run: |
-          zip -r master.zip ./Lean/_docs/
-          cp master.zip ${{steps.lean.outputs.TAG}}.zip
-          tar -zcf master.tar.gz ./Lean/_docs/
-          cp master.tar.gz ${{steps.lean.outputs.TAG}}.tar.gz
-          echo $The latest LEAN Tag is ${{steps.lean.outputs.TAG}}
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Lean/master.zip
+          asset_name: master.zip
+          asset_content_type: application/zip
 
-      - name: Commit and Push
-        run: |-
-          git diff
-          git config --global user.email "actions@users.noreply.github.com"
-          git config --global user.name "GitHub Actions"
-          git add *.zip *.tar.gz
-          git commit --allow-empty -m "Save Files"
-          git push
+      - name: Publish the GZipped Doxygen Docs to GH Releases
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Lean/master.tar.gz
+          asset_name: master.tar.gz
+          asset_content_type: application/zip
+
+      #- name: Commit and Push
+      #  run: |-
+      #    git diff
+      #    git config --global user.email "actions@users.noreply.github.com"
+      #    git config --global user.name "GitHub Actions"
+      #    git add *.zip *.tar.gz
+      #    git commit --allow-empty -m "Save Files"
+      #    git push
