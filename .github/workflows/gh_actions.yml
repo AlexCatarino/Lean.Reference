@@ -1,0 +1,51 @@
+name: Create Documentation
+
+on:
+  schedule:
+    - cron: 0 3 * * *
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Doxygen and Graphviz
+        run: sudo apt-get install -y doxygen graphviz
+      
+      - name: Generate Footer
+        run: doxygen -w html _.html footer.html _.css
+
+      - name: Clone Lean
+        run: |
+          git clone --depth 1 https://github.com/QuantConnect/Lean.git
+          cd Lean
+          git fetch
+          echo "::set-output name=TAG::$(git describe --tags --abbrev=0)"
+        id: lean
+
+      - name: Generate Documentation
+        run: |
+          cp Doxyfile MAIN_PAGE.md *.css *.html ./Lean
+          cd Lean
+          doxygen
+
+      - name: Publish the Zipped Doxygen Docs to GH Releases
+        run: |
+          zip -r master.zip ./Lean/_docs/
+          cp master.zip ${{steps.lean.outputs.TAG}}.zip
+          tar -zcf master.tar.gz ./Lean/_docs/
+          cp master.tar.gz ${{steps.lean.outputs.TAG}}.tar.gz
+          echo $The latest LEAN Tag is ${{steps.lean.outputs.TAG}}
+
+      - name: Commit and Push
+        run: |-
+          git diff
+          git config --global user.email "actions@users.noreply.github.com"
+          git config --global user.name "GitHub Actions"
+          git add *.zip *.tar.gz
+          git commit --allow-empty -m "Save Files"
+          git push
