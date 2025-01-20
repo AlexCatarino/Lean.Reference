@@ -1,0 +1,4 @@
+<map id="QuantConnect.Python.CommandPythonWrapper.Serialize" name="QuantConnect.Python.CommandPythonWrapper.Serialize">
+<area shape="rect" id="node1" title="Helper method to serialize a command instance" alt="" coords="353,5,588,47"/>
+<area shape="rect" id="node2" href="$classQuantConnect_1_1Algorithm_1_1QCAlgorithm.html#a1b504c54c75177db916ce20481477eb9" title="Get an authenticated link to execute the given command instance" alt="" coords="5,13,305,39"/>
+</map>

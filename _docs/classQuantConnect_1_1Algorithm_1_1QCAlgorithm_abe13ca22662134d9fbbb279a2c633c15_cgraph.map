@@ -1,0 +1,8 @@
+<map id="QuantConnect.Algorithm.QCAlgorithm.RegisterIndicator" name="QuantConnect.Algorithm.QCAlgorithm.RegisterIndicator">
+<area shape="rect" id="node1" title="Creates and registers a new consolidator to receive automatic updates at the specified resolution as ..." alt="" coords="5,39,279,80"/>
+<area shape="rect" id="node2" href="$classQuantConnect_1_1Algorithm_1_1QCAlgorithm.html#a918f318ce76cdc3ed9efad235ff7481e" title="Creates and registers a new consolidator to receive automatic updates at the specified resolution as ..." alt="" coords="327,9,600,51"/>
+<area shape="rect" id="node3" href="$classQuantConnect_1_1Algorithm_1_1QCAlgorithm.html#ade17e71e20d320dc9a1efa3ddf8aa3cd" title="Gets the default consolidator for the specified symbol and resolution" alt="" coords="648,39,921,80"/>
+<area shape="rect" id="node4" href="$classQuantConnect_1_1Algorithm_1_1QCAlgorithm.html#a656b1f8da059abe31170845a61834a09" title="Creates a new consolidator for the specified period, generating the requested output type." alt="" coords="987,5,1260,47"/>
+<area shape="rect" id="node5" href="$classQuantConnect_1_1Util_1_1LeanData.html#adf1799b921849e0643385e6794ec2471" title="Get the TickType for common Lean data types. If not a Lean common data type, return a TickType of Tra..." alt="" coords="969,71,1277,112"/>
+<area shape="rect" id="node6" href="$classQuantConnect_1_1Util_1_1LeanData.html#a24869ac4b029b3f2d468596baab6d72d" title="Gets the tick type most commonly associated with the specified security type" alt="" coords="1325,71,1536,112"/>
+</map>

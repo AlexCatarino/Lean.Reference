@@ -1,0 +1,11 @@
+<map id="QuantConnect.Lean.Engine.RealTime.LiveTradingRealTimeHandler.RefreshMarketHours" name="QuantConnect.Lean.Engine.RealTime.LiveTradingRealTimeHandler.RefreshMarketHours">
+<area shape="rect" id="node1" title="Refresh the market hours for each security in the given date" alt="" coords="5,79,284,135"/>
+<area shape="rect" id="node2" href="$classQuantConnect_1_1Lean_1_1Engine_1_1RealTime_1_1LiveTradingRealTimeHandler.html#ae4db5652de58d7c7a5f6e182cba561d7" title="Resets the market hours database, forcing a reload when reused. Called in tests where multiple algori..." alt="" coords="332,5,611,61"/>
+<area shape="rect" id="node3" href="$classQuantConnect_1_1Logging_1_1Log.html#a4e55477fbc790846b74550a57198cea9" title="Log trace" alt="" coords="371,86,571,127"/>
+<area shape="rect" id="node5" href="$classQuantConnect_1_1Lean_1_1Engine_1_1RealTime_1_1LiveTradingRealTimeHandler.html#ab9e18aae7146f61b52dc8fb136414915" title="Updates the market hours for the specified security." alt="" coords="332,152,611,208"/>
+<area shape="rect" id="node4" href="$interfaceQuantConnect_1_1Logging_1_1ILogHandler.html#a3fb71a33ac66129240b63f12b6fcda3b" title="Write debug message to log" alt="" coords="706,86,906,127"/>
+<area shape="rect" id="node6" href="$classQuantConnect_1_1Securities_1_1SecurityExchangeHours.html#af6f527fdfc92b5801026340fd4114a4a" title="Gets a SecurityExchangeHours instance that is always open" alt="" coords="675,155,937,197"/>
+<area shape="rect" id="node9" href="$classQuantConnect_1_1Securities_1_1MarketHoursDatabase.html#ab10d5242b6fcbe4d9f7aacd800e0efea" title="Convenience method for retrieving exchange hours from market hours database using a subscription conf..." alt="" coords="659,221,953,262"/>
+<area shape="rect" id="node7" href="$classQuantConnect_1_1Securities_1_1LocalMarketHours.html#a7b62571672b229cdd9f8a676984cab84" title="Gets a LocalMarketHours instance that is always open" alt="" coords="1008,118,1228,159"/>
+<area shape="rect" id="node8" href="$classQuantConnect_1_1Securities_1_1SecurityExchangeHours.html#a4e35261d01a60022cc2ca6025cac18d8" title="Initializes a new instance of the SecurityExchangeHours class" alt="" coords="1001,184,1235,240"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler.Setup" name="QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler.Setup">
+<area shape="rect" id="node1" title="Setup the algorithm cash, dates and data subscriptions as desired." alt="" coords="5,5,273,47"/>
+<area shape="rect" id="node2" href="$classQuantConnect_1_1Lean_1_1Engine_1_1Setup_1_1BaseSetupHandler.html#ae3d99e89ce2014c78544fa5f4972d842" title="Primary entry point to setup a new algorithm" alt="" coords="321,5,544,47"/>
+<area shape="rect" id="node3" href="$classQuantConnect_1_1Logging_1_1Log.html#a4e55477fbc790846b74550a57198cea9" title="Log trace" alt="" coords="592,5,792,47"/>
+<area shape="rect" id="node4" href="$interfaceQuantConnect_1_1Logging_1_1ILogHandler.html#a3fb71a33ac66129240b63f12b6fcda3b" title="Write debug message to log" alt="" coords="840,5,1040,47"/>
+</map>

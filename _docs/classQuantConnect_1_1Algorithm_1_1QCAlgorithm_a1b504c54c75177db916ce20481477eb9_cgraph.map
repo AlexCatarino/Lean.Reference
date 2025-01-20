@@ -1,0 +1,6 @@
+<map id="QuantConnect.Algorithm.QCAlgorithm.Link" name="QuantConnect.Algorithm.QCAlgorithm.Link">
+<area shape="rect" id="node1" title="Get an authenticated link to execute the given command instance" alt="" coords="5,46,305,73"/>
+<area shape="rect" id="node2" href="$classQuantConnect_1_1Extensions.html#addaac2d24d103331d55443b8306cc8ba" title="Creates a type with a given name, if PyObject is not a CLR type. Otherwise, convert it." alt="" coords="374,5,567,47"/>
+<area shape="rect" id="node4" href="$classQuantConnect_1_1Python_1_1CommandPythonWrapper.html#ad68b01414a2007a4bf4321bcfb8bbc18" title="Helper method to serialize a command instance" alt="" coords="353,71,588,112"/>
+<area shape="rect" id="node3" href="$classQuantConnect_1_1Util_1_1ObjectActivator.html#acbc943be71348f94a057dab6dfa0871e" title="Adds method to return an instance of object" alt="" coords="636,5,823,47"/>
+</map>

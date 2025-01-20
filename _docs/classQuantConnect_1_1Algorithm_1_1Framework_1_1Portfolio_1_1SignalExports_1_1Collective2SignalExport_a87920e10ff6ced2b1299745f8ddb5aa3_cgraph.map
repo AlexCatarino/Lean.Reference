@@ -1,0 +1,11 @@
+<map id="QuantConnect.Algorithm.Framework.Portfolio.SignalExports.Collective2SignalExport.ConvertHoldingsToCollective2" name="QuantConnect.Algorithm.Framework.Portfolio.SignalExports.Collective2SignalExport.ConvertHoldingsToCollective2">
+<area shape="rect" id="node1" title="Converts a list of targets to a list of Collective2 positions" alt="" coords="5,137,308,193"/>
+<area shape="rect" id="node2" href="$classQuantConnect_1_1Algorithm_1_1Framework_1_1Portfolio_1_1SignalExports_1_1Collective2SignalExport.html#a068778469a955aa908e2657d2ed1b1a3" title="Converts a given percentage of a position into the number of shares of it" alt="" coords="356,30,659,86"/>
+<area shape="rect" id="node5" href="$interfaceQuantConnect_1_1Interfaces_1_1IAlgorithm.html#a7b8af1af90d91f0702ae39686c073dce" title="Send an error message for the algorithm" alt="" coords="414,111,601,152"/>
+<area shape="rect" id="node6" href="$classQuantConnect_1_1SymbolRepresentation.html#ab8432a8d2fc0d7ce9ec70e0d23360e93" title="Function returns option ticker from IQFeed option ticker For example CSCO1220V19 Cisco October Put at..." alt="" coords="372,176,643,217"/>
+<area shape="rect" id="node9" href="$interfaceQuantConnect_1_1Interfaces_1_1IAlgorithm.html#a982f3b1a998544ae8fa0f447b40a62a6" title="For the given symbol will resolve the ticker it used at the current algorithm date" alt="" coords="414,241,601,283"/>
+<area shape="rect" id="node3" href="$interfaceQuantConnect_1_1Interfaces_1_1IAlgorithm.html#a63cc959667fa0f4dfd13048a9b7dac94" title="Send debug message" alt="" coords="745,5,931,47"/>
+<area shape="rect" id="node4" href="$classQuantConnect_1_1Algorithm_1_1Framework_1_1Portfolio_1_1PortfolioTarget.html#ae4839947af9044a228ce8bcd661c5d16" title="Creates a new target for the specified percent" alt="" coords="707,71,969,112"/>
+<area shape="rect" id="node7" href="$classQuantConnect_1_1SecurityIdentifier.html#a62166df04edcb28963083dd34b500b5d" title="For the given symbol will resolve the ticker it used at the requested date" alt="" coords="722,176,954,217"/>
+<area shape="rect" id="node8" href="$classQuantConnect_1_1Data_1_1Auxiliary_1_1AuxiliaryDataKey.html#a581149f0149fb793872935e0d46f0eed" title="Helper method to create a new instance from a Symbol" alt="" coords="1017,176,1231,217"/>
+</map>

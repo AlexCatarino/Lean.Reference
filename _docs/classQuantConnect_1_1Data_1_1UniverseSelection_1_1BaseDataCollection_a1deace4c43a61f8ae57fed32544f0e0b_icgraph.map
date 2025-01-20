@@ -1,0 +1,4 @@
+<map id="QuantConnect.Data.UniverseSelection.BaseDataCollection.TryGetCachedSymbol" name="QuantConnect.Data.UniverseSelection.BaseDataCollection.TryGetCachedSymbol">
+<area shape="rect" id="node1" title="Tries to get a symbol from the cache" alt="" coords="291,5,528,61"/>
+<area shape="rect" id="node2" href="$classQuantConnect_1_1Data_1_1UniverseSelection_1_1OptionUniverse.html#a9c722865b50f2840c0cd33a88a0ef629" title="Reader converts each line of the data source into BaseData objects. Each data type creates its own fa..." alt="" coords="5,13,243,54"/>
+</map>

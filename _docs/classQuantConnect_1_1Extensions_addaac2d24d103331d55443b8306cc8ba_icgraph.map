@@ -1,0 +1,5 @@
+<map id="QuantConnect.Extensions.CreateType" name="QuantConnect.Extensions.CreateType">
+<area shape="rect" id="node1" title="Creates a type with a given name, if PyObject is not a CLR type. Otherwise, convert it." alt="" coords="353,35,547,76"/>
+<area shape="rect" id="node2" href="$classQuantConnect_1_1Algorithm_1_1QCAlgorithm.html#aa0786dcef0defab6dce7221106134479" title="Register a command type to be used" alt="" coords="19,5,292,47"/>
+<area shape="rect" id="node3" href="$classQuantConnect_1_1Algorithm_1_1QCAlgorithm.html#a1b504c54c75177db916ce20481477eb9" title="Get an authenticated link to execute the given command instance" alt="" coords="5,71,305,98"/>
+</map>

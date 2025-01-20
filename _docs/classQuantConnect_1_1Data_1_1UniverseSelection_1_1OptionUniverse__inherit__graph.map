@@ -1,0 +1,9 @@
+<map id="QuantConnect.Data.UniverseSelection.OptionUniverse" name="QuantConnect.Data.UniverseSelection.OptionUniverse">
+<area shape="rect" id="node1" title="Represents a universe of options data" alt="" coords="115,304,326,345"/>
+<area shape="rect" id="node2" href="$classQuantConnect_1_1Data_1_1UniverseSelection_1_1BaseDataCollection.html" title="This type exists for transport of data as a single packet" alt="" coords="77,229,228,256"/>
+<area shape="rect" id="node3" href="$classQuantConnect_1_1Data_1_1BaseData.html" title="Abstract base data class of QuantConnect. It is intended to be extended to define generic user custom..." alt="" coords="27,155,113,181"/>
+<area shape="rect" id="node4" href="$interfaceQuantConnect_1_1Data_1_1IBaseData.html" title="Base Data Class: Type, Timestamp, Key – Base Features." alt="" coords="25,80,115,107"/>
+<area shape="rect" id="node5" href="$interfaceQuantConnect_1_1Data_1_1ISymbolProvider.html" title="Base data with a symbol" alt="" coords="5,5,135,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="137,155,334,181"/>
+<area shape="rect" id="node7" href="$interfaceQuantConnect_1_1Securities_1_1ISymbol.html" title="Base interface intended for universe data to have some of their symbol properties accessible directly..." alt="" coords="253,229,327,256"/>
+</map>

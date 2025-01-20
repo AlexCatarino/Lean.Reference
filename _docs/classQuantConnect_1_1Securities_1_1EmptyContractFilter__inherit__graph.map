@@ -1,0 +1,4 @@
+<map id="QuantConnect.Securities.EmptyContractFilter" name="QuantConnect.Securities.EmptyContractFilter">
+<area shape="rect" id="node1" title="Derivate security universe selection filter which will always return empty" alt="" coords="5,95,192,136"/>
+<area shape="rect" id="node2" href="$interfaceQuantConnect_1_1Securities_1_1IDerivativeSecurityFilter.html" title=" " alt="" coords="9,5,189,47"/>
+</map>

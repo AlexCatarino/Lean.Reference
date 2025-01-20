@@ -1,0 +1,7 @@
+<map id="QuantConnect.Data.Market.OptionChain" name="QuantConnect.Data.Market.OptionChain">
+<area shape="rect" id="node1" title="Represents an entire chain of option contracts for a single underying security. This type is IEnumera..." alt="" coords="59,229,262,271"/>
+<area shape="rect" id="node2" href="$classQuantConnect_1_1Data_1_1BaseData.html" title="Abstract base data class of QuantConnect. It is intended to be extended to define generic user custom..." alt="" coords="27,155,113,181"/>
+<area shape="rect" id="node3" href="$interfaceQuantConnect_1_1Data_1_1IBaseData.html" title="Base Data Class: Type, Timestamp, Key – Base Features." alt="" coords="25,80,115,107"/>
+<area shape="rect" id="node4" href="$interfaceQuantConnect_1_1Data_1_1ISymbolProvider.html" title="Base data with a symbol" alt="" coords="5,5,135,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="137,155,369,181"/>
+</map>

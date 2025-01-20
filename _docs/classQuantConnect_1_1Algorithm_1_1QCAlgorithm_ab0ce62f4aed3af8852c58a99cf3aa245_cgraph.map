@@ -1,0 +1,10 @@
+<map id="QuantConnect.Algorithm.QCAlgorithm.OptionChains" name="QuantConnect.Algorithm.QCAlgorithm.OptionChains">
+<area shape="rect" id="node1" title="Get the option chains for the specified symbols at the current time (Time)" alt="" coords="5,166,279,207"/>
+<area shape="rect" id="node2" href="$interfaceQuantConnect_1_1Interfaces_1_1IOptionChainProvider.html#ae84aa4fcafd5bd9723724ffd4c8878ee" title="Gets the list of option contracts for a given underlying symbol" alt="" coords="349,5,578,61"/>
+<area shape="rect" id="node3" href="$classQuantConnect_1_1Securities_1_1SymbolPropertiesDatabase.html#a3ea48557a7a885c2c53529f8c4b75598" title="Gets the symbol properties for the specified market/symbol/security&#45;type" alt="" coords="350,85,577,141"/>
+<area shape="rect" id="node7" href="$classQuantConnect_1_1Algorithm_1_1QCAlgorithm.html#a446a10e68319fdc3c0b2ed85d80f55f8" title="Get the history for all configured securities over the requested span. This will use the resolution a..." alt="" coords="327,166,600,207"/>
+<area shape="rect" id="node8" href="$classQuantConnect_1_1Algorithm_1_1QCAlgorithm.html#aa259ba2e3bd6c96d4710fff0ccdd24e6" title="Get the option chain for the specified symbol at the current time (Time)" alt="" coords="327,231,600,273"/>
+<area shape="rect" id="node4" href="$classQuantConnect_1_1Securities_1_1MarketHoursDatabase.html#aa717adb9bb04be931913608ffd5a2733" title="Gets the correct string symbol to use as a database key" alt="" coords="648,49,904,105"/>
+<area shape="rect" id="node5" href="$classQuantConnect_1_1Securities_1_1SymbolProperties.html#ad148190d1dfce7109d38d3107b7b8fbf" title="Gets a default instance of the SymbolProperties class for the specified quoteCurrency" alt="" coords="670,130,882,171"/>
+<area shape="rect" id="node6" href="$classQuantConnect_1_1Securities_1_1SymbolProperties.html#a0f421617bcddd5b08a830689b1e2dcfa" title="Creates an instance of the SymbolProperties class" alt="" coords="952,130,1208,171"/>
+</map>

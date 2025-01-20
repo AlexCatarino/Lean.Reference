@@ -1,0 +1,4 @@
+<map id="QuantConnect.Indicators.OptionIndicatorBase.ComputeNextValue" name="QuantConnect.Indicators.OptionIndicatorBase.ComputeNextValue">
+<area shape="rect" id="node1" title="Computes the next value of this indicator from the given state. This will round the result to 7 decim..." alt="" coords="5,5,289,47"/>
+<area shape="rect" id="node2" href="$classQuantConnect_1_1Indicators_1_1OptionIndicatorBase.html#add5abe7532d464ba4ac2271e3ddbdfd4" title="Computes the next value of this indicator from the given state." alt="" coords="337,5,556,47"/>
+</map>

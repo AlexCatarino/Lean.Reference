@@ -1,0 +1,4 @@
+<map id="QuantConnect.Indicators.DualSymbolIndicator.ComputeIndicator" name="QuantConnect.Indicators.DualSymbolIndicator.ComputeIndicator">
+<area shape="rect" id="node1" title="Performs the specific computation for the indicator." alt="" coords="271,13,548,54"/>
+<area shape="rect" id="node2" href="$classQuantConnect_1_1Indicators_1_1DualSymbolIndicator.html#af8d4dc5840b24cd9c2a156ad2412311d" title="Checks and computes the indicator if the input data matches. This method ensures the input data point..." alt="" coords="5,5,223,61"/>
+</map>

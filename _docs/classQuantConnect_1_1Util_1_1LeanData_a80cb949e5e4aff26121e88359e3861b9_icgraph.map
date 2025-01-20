@@ -1,0 +1,5 @@
+<map id="QuantConnect.Util.LeanData.GenerateRelativeUniversesDirectory" name="QuantConnect.Util.LeanData.GenerateRelativeUniversesDirectory">
+<area shape="rect" id="node1" title="Generates the relative directory to the universe files for the specified symbol" alt="" coords="571,5,832,47"/>
+<area shape="rect" id="node2" href="$classQuantConnect_1_1Util_1_1LeanData.html#a42eec844dbd75694d08d649bfd0fa27f" title="Generates the directory to the universe files for the specified symbol" alt="" coords="312,5,523,47"/>
+<area shape="rect" id="node3" href="$classQuantConnect_1_1Data_1_1UniverseSelection_1_1OptionUniverse.html#ad296caefb4bc04c6ca256c347a0f4c55" title="Return the URL string source of the file. This will be converted to a stream" alt="" coords="5,5,264,47"/>
+</map>

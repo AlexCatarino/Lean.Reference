@@ -1,0 +1,6 @@
+<map id="QuantConnect.Symbol" name="QuantConnect.Symbol">
+<area shape="rect" id="node1" title="Represents a unique security identifier. This is made of two components, the unique SID and the Value..." alt="" coords="170,80,337,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,176,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="201,5,306,32"/>
+<area shape="rect" id="node4" href="$interfaceQuantConnect_1_1Securities_1_1ISymbol.html" title="Base interface intended for universe data to have some of their symbol properties accessible directly..." alt="" coords="329,5,404,32"/>
+</map>

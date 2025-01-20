@@ -1,0 +1,10 @@
+<map id="QuantConnect.Lean.Engine.RealTime.LiveTradingRealTimeHandler.RefreshSymbolProperties" name="QuantConnect.Lean.Engine.RealTime.LiveTradingRealTimeHandler.RefreshSymbolProperties">
+<area shape="rect" id="node1" title="Refresh the symbol properties for each security" alt="" coords="5,35,284,91"/>
+<area shape="rect" id="node2" href="$classQuantConnect_1_1Logging_1_1Log.html#a4e55477fbc790846b74550a57198cea9" title="Log trace" alt="" coords="371,5,571,47"/>
+<area shape="rect" id="node4" href="$classQuantConnect_1_1Lean_1_1Engine_1_1RealTime_1_1LiveTradingRealTimeHandler.html#acae3c90755997148080a6dd8c1b9fb52" title="Updates the symbol properties for the specified security." alt="" coords="332,71,611,127"/>
+<area shape="rect" id="node3" href="$interfaceQuantConnect_1_1Logging_1_1ILogHandler.html#a3fb71a33ac66129240b63f12b6fcda3b" title="Write debug message to log" alt="" coords="672,5,872,47"/>
+<area shape="rect" id="node5" href="$classQuantConnect_1_1Securities_1_1SymbolPropertiesDatabase.html#a3ea48557a7a885c2c53529f8c4b75598" title="Gets the symbol properties for the specified market/symbol/security&#45;type" alt="" coords="659,71,885,127"/>
+<area shape="rect" id="node6" href="$classQuantConnect_1_1Securities_1_1MarketHoursDatabase.html#aa717adb9bb04be931913608ffd5a2733" title="Gets the correct string symbol to use as a database key" alt="" coords="933,34,1189,90"/>
+<area shape="rect" id="node7" href="$classQuantConnect_1_1Securities_1_1SymbolProperties.html#ad148190d1dfce7109d38d3107b7b8fbf" title="Gets a default instance of the SymbolProperties class for the specified quoteCurrency" alt="" coords="955,115,1167,156"/>
+<area shape="rect" id="node8" href="$classQuantConnect_1_1Securities_1_1SymbolProperties.html#a0f421617bcddd5b08a830689b1e2dcfa" title="Creates an instance of the SymbolProperties class" alt="" coords="1237,115,1493,156"/>
+</map>
